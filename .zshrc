@@ -13,3 +13,8 @@ compinit
 setopt extended_glob
 setopt autolist automenu
 zstyle ':completion:*'               menu select=20
+
+setopt correct
+
+#ignore tariling `
+setopt sunkeyboardhack
