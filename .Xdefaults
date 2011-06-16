@@ -1,0 +1,20 @@
+## borderless and no scrollbar
+URxvt*scrollBar_right: false
+URxvt*scrollBar: false
+URxvt*borderLess: false
+
+## transparency
+URxvt*inheritPixmap: true
+URxvt*tintColor: white
+URxvt*shading: 25
+
+URxvt*foreground:White
+URxvt*background:Black
+
+#URxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=12
+
+## url launcher
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: google-chrome
+URxvt.matcher.button: 2
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
